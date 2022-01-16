@@ -1,5 +1,7 @@
 # This script installs most IIS features
 
+Set-ExecutionPolicy UnRestricted -force
+
 Install-WindowsFeature -name Web-Server -IncludeManagementTools
 Install-WindowsFeature Web-Default-Doc
 Install-WindowsFeature Web-Dir-Browsing
