@@ -1,4 +1,5 @@
-# This script installs most IIS features
+#raghavendra@aventure.cloud
+# This script installs commonly IIS features
 
 Set-ExecutionPolicy UnRestricted -force
 Install-WindowsFeature -name Web-Server -IncludeManagementTools
