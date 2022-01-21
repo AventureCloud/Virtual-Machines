@@ -12,3 +12,6 @@ az vm image terms accept --urn Canonical:0001-com-ubuntu-pro-xenial:pro-16_04-lt
 #Another example
 az vm image terms accept --urn bitnami:rabbitmq:rabbitmq:latest
 
+#To see the status of an Agreement of an Image
+az vm image terms show --urn Canonical:0001-com-ubuntu-pro-xenial:pro-16_04-lts:16.04.20201014
+
