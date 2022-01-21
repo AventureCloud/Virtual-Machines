@@ -1,0 +1,5 @@
+Tool: Putty
+- Download here: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+PowerShell
+ssh -i <key.pem> <User Name>@<IP Address>
