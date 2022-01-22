@@ -1,0 +1,31 @@
+Virtual Machine
+
+Virtual Machine's running as a SET = VMSS = Virtual Machine Scale Set
+
+
+VM1
+
+
+VMSS = [VM1, VM2, VM3,    10]
+
+------------
+
+
+ recommendation
+ - imp IaaS resources should move under Scale Sets.
+                                   ? How to move existing VMs into Scale Set (Without down time)
+
+ No audit, no past reports
+ - Audit Policy: to find all VMs that are not under Scale Set (all 65)
+ - Remediation Policy: Move them to scale set using a Script
+
+HIPAA
+- Beyond backup there is Disaster Recovery Service (HIPAA disaster recovery plan)
+- non-conformity report (raising NCs)
+- Audit Policy: to find all VMs that are not under DR (all 65) "Small thing"
+- How to audit Azure App Plans if they have DR or Regionally Redundant
+
+
+
+
+ 

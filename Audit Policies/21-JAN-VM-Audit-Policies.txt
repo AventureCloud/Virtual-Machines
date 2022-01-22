@@ -1,0 +1,47 @@
+Virtual Machine
+
+Virtual Machine's running as a SET = VMSS = Virtual Machine Scale Set
+
+
+VM1
+
+
+VMSS = [VM1, VM2, VM3,    10]
+
+------------
+
+
+ recommendation
+ - imp IaaS resources should move under Scale Sets.
+                                   ? How to move existing VMs into Scale Set (Without down time)
+
+ No audit, no past reports
+ - Audit Policy: to find all VMs that are not under Scale Set (all 65), if not exists CREATE such a Audit Policy
+ - Remediation Policy: Move them to scale set using a Script
+
+HIPAA
+- Beyond backup there is Disaster Recovery Service (HIPAA disaster recovery plan)
+- non-conformity report (raising NCs)
+- Audit Policy: to find all VMs that are not under DR (all 65) "Small thing"
+- How to audit Azure App Plans if they have DR or Regionally Redundant
+
+Downtimes
+
+-Scale set = 0-----------------------------------------Automatic
+
+HIPAA Compliance
+
+- Backup = ? on Recovery Time---------------Manual and mandates some downtime (unpredicted, some emergency happended)- has an acceptance level: hr/month
+ ----- gain of backup DATA is not LOST
+ ----- How to get 100% Backup? Backup tolerance level. Q Vagesh is: IS that defined...RTO/RPO
+
+
+-DR
+ - VM (IaaS) can have DR configuration
+  -   Audit if DR is configured
+  -   How often there DR is drilled: DR Drills, how often to test it, do u have any test cases
+
+
+
+
+ 
