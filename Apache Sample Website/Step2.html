@@ -1,0 +1,10 @@
+# Installing Apache2 Webserver on Ubuntu 20.04 LTS
+# Replacing the default website with our own website downloaded from the URL in this lab
+
+sudo apt-get install apache2
+wget https://www.free-css.com/assets/files/free-css-templates/download/page279/tropiko.zip
+sudo apt-get install unzip
+unzip tropiko.zip
+cd tropiko-html/
+sudo cp -R * /var/www/html/
+sudo service apache2 restart
