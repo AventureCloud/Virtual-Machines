@@ -1,9 +1,0 @@
-﻿Lab Objective
-Creating a VM via Portal (Windows & Linux)
-Create a NIC card and associate it with the VM
-Create a Public IP and associate it with a NIC card
-"Scenario:
-- Customer has two Ubuntu 20.04 LTS based Web Servers
-- Customer wanted High Availability using Azure Load balancer
-Deploy the Solution in Azure"
-Resize a VM
